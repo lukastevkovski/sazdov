@@ -37,7 +37,7 @@
               <li class="ms-3">
                 <a href="index.html" aria-current="page">HOME</a>
               </li>
-              <li class="ms-3"><a href="posts.html">POSTS</a></li>
+              <li class="ms-3"><a href="caru.html">POSTS</a></li>
               <li class="ms-3"><a href="#about">ABOUT</a></li>
               <li class="ms-3"><a href="#contact">CONTACT</a></li>
             </ul>
@@ -115,7 +115,122 @@
       </div>
     </section>
 
+    <!-- Testimonials Section -->
+
+    <section class="testimonials-section">
+       <div class="fade-up">
+          <h2 class="section-title text-white">Success stories</h2>
+         
+        </div>
+      <div class="container">
+         <div class="row g-4">
+          <!-- Video Testimonial 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div
+              class="video-card"
+              data-bs-toggle="modal"
+              data-bs-target="#videoModal1"
+            >
+              <div class="video-thumbnail">
+                <video muted preload="metadata">
+                  <source src="assets/video1.mp4" type="video/mp4" />
+                </video>
+                <div class="video-overlay">
+                  <div class="play-button">
+                    <i class="fas fa-play"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="video-content">
+                <h4>Close Deals Faster</h4>
+                <p>
+                  Discover how our video marketing strategy helped increase
+                  conversion rates by 300% and close deals more effectively.
+                </p>
+                <div class="client-info">
+                  <div class="client-avatar">JD</div>
+                  <div class="client-details">
+                    <h6>John Doe</h6>
+                    <p>CEO, TechCorp</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Testimonial 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div
+              class="video-card"
+              data-bs-toggle="modal"
+              data-bs-target="#videoModal2"
+            >
+              <div class="video-thumbnail">
+                <video muted preload="metadata">
+                  <source src="assets/video2.mp4" type="video/mp4" />
+                </video>
+                <div class="video-overlay">
+                  <div class="play-button">
+                    <i class="fas fa-play"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="video-content">
+                <h4>Quality Over Quantity</h4>
+                <p>
+                  Learn why more views don't always mean more money and how we
+                  focus on quality engagement that drives real results.
+                </p>
+                <div class="client-info">
+                  <div class="client-avatar">SM</div>
+                  <div class="client-details">
+                    <h6>Sarah Miller</h6>
+                    <p>Marketing Director, GrowthCo</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Testimonial 3 -->
+          <div class="col-lg-4 col-md-6">
+            <div
+              class="video-card"
+              data-bs-toggle="modal"
+              data-bs-target="#videoModal3"
+            >
+              <div class="video-thumbnail">
+                <video muted preload="metadata">
+                  <source src="assets/0602 (1).mp4" type="video/mp4" />
+                </video>
+                <div class="video-overlay">
+                  <div class="play-button">
+                    <i class="fas fa-play"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="video-content">
+                <h4>Targeted Content Strategy</h4>
+                <p>
+                  See how our targeted content approach helped reach the right
+                  audience and generate qualified leads consistently.
+                </p>
+                <div class="client-info">
+                  <div class="client-avatar">MJ</div>
+                  <div class="client-details">
+                    <h6>Mike Johnson</h6>
+                    <p>Founder, StartupX</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Video Modals -->
+    <!-- Modal 1 -->
     <div
       class="modal fade"
       id="videoModal1"
@@ -124,32 +239,30 @@
       aria-hidden="true"
     >
       <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content bg-dark">
+        <div class="modal-content">
           <div class="modal-header border-0">
-            <h5 class="modal-title text-white" id="videoModal1Label">
-              Close Deals
+            <h5 class="modal-title" id="videoModal1Label">
+              Close Deals Faster
             </h5>
             <button
               type="button"
-              class="btn-close btn-close-white"
+              class="btn-close"
               data-bs-dismiss="modal"
             ></button>
           </div>
           <div class="modal-body">
             <div class="ratio ratio-16x9">
-              <iframe
-                src="https://www.youtube.com/embed/B8AZHMsbdrA"
-                title="Cinematic Short Film"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
+              <video class="modal-video" controls preload="metadata">
+                <source src="assets/0221 (1).mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- Modal 2 -->
     <div
       class="modal fade"
       id="videoModal2"
@@ -158,32 +271,30 @@
       aria-hidden="true"
     >
       <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content bg-dark">
+        <div class="modal-content">
           <div class="modal-header border-0">
-            <h5 class="modal-title text-white" id="videoModal2Label">
-              MORE VIEWS is not MORE MONEY
+            <h5 class="modal-title" id="videoModal2Label">
+              Quality Over Quantity
             </h5>
             <button
               type="button"
-              class="btn-close btn-close-white"
+              class="btn-close"
               data-bs-dismiss="modal"
             ></button>
           </div>
           <div class="modal-body">
             <div class="ratio ratio-16x9">
-              <iframe
-                src="https://www.youtube.com/embed/wwmBCkT_X5w?si=KJKOfs_yh0bDj7NW"
-                title="YouTube Vlog Edit"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
+              <video class="modal-video" controls preload="metadata">
+                <source src="assets/0602 (1).mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- Modal 3 -->
     <div
       class="modal fade"
       id="videoModal3"
@@ -192,32 +303,35 @@
       aria-hidden="true"
     >
       <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content bg-dark">
+        <div class="modal-content">
           <div class="modal-header border-0">
-            <h5 class="modal-title text-white" id="videoModal3Label">
-              Targeted Content
+            <h5 class="modal-title" id="videoModal3Label">
+              Targeted Content Strategy
             </h5>
             <button
               type="button"
-              class="btn-close btn-close-white"
+              class="btn-close"
               data-bs-dismiss="modal"
             ></button>
           </div>
           <div class="modal-body">
             <div class="ratio ratio-16x9">
-              <iframe
-                src="https://www.youtube.com/embed/c67oKAURJ88?si=1ObZPqHcKn-s6Fqm"
-                title="Corporate Promo Video"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
+              <video class="modal-video" controls preload="metadata">
+                <source
+                  src="assets/Testimonial from Tobi.MP4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div></div>
+      </div>
+
+      <!-- Video Testimonial 1 -->
+    </section>
 
     <!-- About Me Section -->
     <section class="about_me gradient-section" id="about">
@@ -503,28 +617,205 @@
     </section>
 
     <!-- Footer -->
-    <footer id="contact" class="bg-dark py-5">
-      <div class="skills_section bg-warning">
-        <div class="centered wrapper">
-          <p class="section-title navy_txt">Contact Me</p>
-          <div class="line"></div>
-          <a href="#" class="btn btn-primary">Book a Call</a>
-          <div class="line"></div>
-          <div class="footer-social">
-            <a href="#" aria-label="Facebook"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="#" aria-label="Instagram"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+    <footer id="contact">
+      <div class="footer-container">
+        <div class="footer-content">
+          <!-- Contact Information -->
+          <div class="footer-section contact-info">
+            <h3>Get In Touch</h3>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>kiril.sazdov@email.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-skype"></i>
+              <span>@kirilsazdov</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Veles, Macedonia</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-clock"></i>
+              <span>Available 24/7 for urgent projects</span>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-section quick-links">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Video Editing</a></li>
+              <li><a href="#services">Personal Branding</a></li>
+              <li><a href="#services">Marketing Strategies</a></li>
+              <li><a href="posts.html">Posts</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Connect Section -->
+          <div class="footer-section connect-section">
+            <h3>Let's Build Your Brand</h3>
+            <p style="margin-bottom: 25px; color: #bdc3c7">
+              Ready to dominate your market? Let's transform your ideas into
+              powerful content that drives real results.
+            </p>
+
+            <a href="#" class="cta-button">
+              <i class="fas fa-video" style="margin-right: 8px"></i>
+              Book Strategy Call
+            </a>
+
+            <div class="social-links">
+              <a href="#" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" aria-label="YouTube">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="#" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" aria-label="TikTok">
+                <i class="fab fa-tiktok"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <p>&copy; 2024 Kiril Sazdov. All rights reserved.</p>
+          <div class="footer-nav">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Sitemap</a>
           </div>
         </div>
       </div>
     </footer>
 
     <!-- Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.querySelectorAll(".video-container").forEach((container) => {
+        const video = container.querySelector(".testimonial-video");
+        const overlay = container.querySelector(".video-overlay");
+
+        container.addEventListener("click", () => {
+          if (video.paused) {
+            video.play();
+            container.classList.add("playing");
+          } else {
+            video.pause();
+            container.classList.remove("playing");
+          }
+        });
+
+        video.addEventListener("ended", () => {
+          container.classList.remove("playing");
+          video.currentTime = 0;
+        });
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const carousel = document.getElementById("testimonialCarousel");
+        const videos = carousel.querySelectorAll("video");
+        const playButtons = carousel.querySelectorAll(".play-button");
+        const overlays = carousel.querySelectorAll(".video-overlay");
+
+        // Function to pause all videos and reset overlays
+        function pauseAllVideos() {
+          videos.forEach((video, index) => {
+            video.pause();
+            video.currentTime = 0;
+            video.muted = true;
+            overlays[index].classList.remove("playing");
+          });
+        }
+
+        // Handle play button clicks
+        playButtons.forEach((button, index) => {
+          button.addEventListener("click", function (e) {
+            e.stopPropagation();
+            const video = videos[index];
+            const overlay = overlays[index];
+
+            if (video.paused) {
+              // Pause all other videos first
+              pauseAllVideos();
+
+              // Play this video
+              video.muted = false; // Unmute when playing
+              video
+                .play()
+                .then(() => {
+                  overlay.classList.add("playing");
+                  // Pause carousel while video is playing
+                  const bsCarousel = bootstrap.Carousel.getInstance(carousel);
+                  if (bsCarousel) {
+                    bsCarousel.pause();
+                  }
+                })
+                .catch((error) => {
+                  console.log("Video play failed:", error);
+                  video.muted = true; // Keep muted if play fails
+                });
+            }
+          });
+        });
+
+        // Handle video ended event
+        videos.forEach((video, index) => {
+          video.addEventListener("ended", function () {
+            overlays[index].classList.remove("playing");
+            video.muted = true;
+            video.currentTime = 0;
+
+            // Resume carousel
+            const bsCarousel = bootstrap.Carousel.getInstance(carousel);
+            if (bsCarousel) {
+              bsCarousel.cycle();
+            }
+          });
+
+          // Handle video pause event
+          video.addEventListener("pause", function () {
+            overlays[index].classList.remove("playing");
+            video.muted = true;
+
+            // Resume carousel
+            const bsCarousel = bootstrap.Carousel.getInstance(carousel);
+            if (bsCarousel) {
+              bsCarousel.cycle();
+            }
+          });
+
+          // Handle click on video to pause
+          video.addEventListener("click", function () {
+            if (!video.paused) {
+              video.pause();
+            }
+          });
+        });
+
+        // Handle carousel slide events
+        carousel.addEventListener("slid.bs.carousel", function () {
+          pauseAllVideos();
+        });
+
+        // Initialize - make sure all videos are paused and muted
+        pauseAllVideos();
+      });
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       crossorigin="anonymous"
